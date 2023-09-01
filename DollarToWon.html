@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let input = prompt('달러를 입력하시면 환율적용해서 원화로 알려드려요~')
+        let dollar = Number(input)
+        let won = dollar * 1316
+        let formatWon = won.toLocaleString()
+        
+        document.write(`원화 : ${formatWon}원 입니다`)
+    </script>
+</body>
+</html>

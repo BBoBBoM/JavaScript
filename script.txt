@@ -1,0 +1,24 @@
+키워드를 사용 안됨 
+숫자로 시작하면 안됨 
+특수문자는 _$ 만 허용
+공백문자 포함 x
+% 나머지 연산자
+
+
+
+document.wirte() 
+prompt() 함수 내용 입력 
+
+사용자로 부터 글자를 입력 받을 때는 prompt() 함수 
+어떤 자료형의 값을 다른 자료형으로 변경하는 것을 자료형 변환이라고 한다.
+숫자 자료형으로 변환 Number() 함수
+문자열 자료형으로 변환할때 String()함수
+불(true,false) 자료형으로 변환할 때 Boolean()함수
+
+
+is not a number
+isNaN 입력된 값이 숫자로 해석할수 있는지를 확인 
+isNaN(input)입력된 값이 숫자가 아닌경우 true
+		입력된 값이 숫자인경우 false 
+!isNaN(input) 이력된 값이 숫자가 아닌경우 false
+		입력된 값이 숫자인경우 true

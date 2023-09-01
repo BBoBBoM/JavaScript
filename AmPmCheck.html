@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const date = new Date();
+      const hour = date.getHours();
+      const check = hour <= 12;
+      if (check) {
+        alert(`${hour}오전입니다.`);
+      }
+      if (!check) {
+        alert(`${hour}오후입니다.`);
+      }
+      alert("종료");
+
+      const breakfast = 7 <= hour && hour <= 9;
+      const lunch = 11 <= hour && hour <= 13;
+      const dinner = 18 <= hour && hour <= 20;
+      if (breakfast) {
+        alert("아침을 먹을 시간입니다.");
+      }
+      if (lunch) {
+        alert("점심을 먹을 시간입니다.");
+      }
+      if (dinner) {
+        alert("저녁을 먹을 시간입니다.");
+      }
+      if (!breakfast && !lunch && !dinner) {
+        alert("지금은 밥먹을 시간이 아닙니다");
+      }
+      alert("종료");
+    </script>
+  </body>
+</html>
